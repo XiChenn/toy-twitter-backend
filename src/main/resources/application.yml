@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:13306/toy_twitter?characterEncoding=utf-8&useSSL=false
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
